@@ -1,3 +1,4 @@
+import "./App.module.scss"
 
 function App() {
   return (
@@ -5,7 +6,9 @@ function App() {
       <header>
         <img src="/logo.svg" alt="company logo" />
       </header>
-      <img src="/hero-mobile.jpg" alt="sample cloth" />
+      <div>
+        <img src="/hero-mobile.jpg" alt="sample cloth" />
+      </div>
       <main>
         <h1>WE'RE COMING SOON</h1>
         <p>
