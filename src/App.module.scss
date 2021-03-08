@@ -12,3 +12,17 @@ div > img {
   width: 100%;
   margin-bottom: 4rem;
 }
+
+main > h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 > span {
+  color: hsl(0, 36%, 70%);
+}
+
+main > p {
+  text-align: center;
+  margin: 1rem 2rem 2rem 2rem;
+}
