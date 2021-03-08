@@ -1,4 +1,4 @@
-import "./App.module.scss"
+import "./App.scss"
 
 function App() {
   return (
@@ -7,20 +7,22 @@ function App() {
         <img src="/logo.svg" alt="company logo" />
       </header>
       <div>
-        <img src="/hero-mobile.jpg" alt="sample cloth" />
+        <img className="hero-img" src="/hero-mobile.jpg" alt="sample cloth" />
       </div>
       <main>
         <h1>
           <span>We're</span> <br /> coming <br /> soon
         </h1>
         <p>
-          Hello fellow shoppers! We're currently building our new fashion
-          store. Add your email below to stay up-to-date with announcements
-          and our launch deals.
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
         </p>
         <form>
           <input placeholder="Email Address" />
-          <img src="/public/icon-arrow.svg" alt="submit arrow" />
+          <a href="#">
+            <img className="form-img" src="icon-arrow.svg" alt="submit arrow" />
+          </a>
         </form>
       </main>
     </>
